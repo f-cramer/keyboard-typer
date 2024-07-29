@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 windows-sys = { version = "0.52", features = ["Win32_UI_Input_KeyboardAndMouse"] }
-tokio = { version = "1.35", features = ["rt-multi-thread"]}
+tokio = { version = "1.39", features = ["rt-multi-thread"]}
 axum = "0.7"
 serde = { version = "1.0", features = ["derive"] }
 tower-http = { version = "0.5", features = ["cors"]}
