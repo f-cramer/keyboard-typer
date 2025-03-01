@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-windows-sys = { version = "0.52", features = ["Win32_UI_Input_KeyboardAndMouse"] }
+windows-sys = { version = "0.59", features = ["Win32_UI_Input_KeyboardAndMouse"] }
 tokio = { version = "1.43", features = ["rt-multi-thread"]}
 axum = "0.7"
 serde = { version = "1.0", features = ["derive"] }
